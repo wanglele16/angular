@@ -1,0 +1,99 @@
+html {
+  background-color: #f0f3f4;
+}
+
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.42857143;
+  color: #58666e;
+  background-color: transparent;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 0;
+}
+
+a {
+  color: #363f44;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  color: #141719;
+  text-decoration: none;
+}
+
+label {
+  font-weight: normal;
+}
+
+.bg-black {
+  color: #7793a7;
+  background-color: #1c2b36;
+}
+
+.app {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  padding-top: 50px;
+}
+
+.app-header-fixed .app-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  margin: 0;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.app-aside, .navbar-header {
+  width: 200px;
+}
+
+.navbar-header {
+  float: left;
+  height: 50px;
+}
+
+.bg-black .text-lt {
+  color: #c4d0d9 !important;
+}
+
+.navbar-brand {
+  display: inline-block;
+  float: none;
+  height: auto;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+
+.m-l-xs {
+  margin-left: 5px;
+}

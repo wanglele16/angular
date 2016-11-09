@@ -1,0 +1,6 @@
+<div ng-include="'/src/tpls/blocks/header.string'" class="indexHeader">
+</div>
+
+
+<div ng-include="'/src/tpls/blocks/sidebar.string'" class=" indexSide"></div>
+<div ui-view class="bottom-right"></div>

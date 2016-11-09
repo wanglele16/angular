@@ -1,0 +1,186 @@
+body,
+dd,
+dl,
+dt,
+fieldset,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+lenged,
+li,
+ol,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+i{
+  font-style: normal;
+}
+li {
+    list-style: none;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.indexHeader {
+    .navbar {
+        background: #37474f;
+    }
+    width: 100%;
+    height: 50px;
+}
+
+.bottom-right{
+  margin-right: 10px;
+}
+
+.index-title {
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+
+    span {
+        display: inline-block;
+        padding-left: 15px;
+        font-size: 16px;
+    }
+
+    b {
+        padding-left: 15px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand b,
+.navbar-brand span {
+    color: #30a5ff;
+}
+
+.user-menu {
+    display: inline-block;
+    margin-top: 14px;
+    margin-right: 10px;
+    float: right;
+    list-style: none;
+    padding: 0;
+
+    a {
+        color: #fff;
+    }
+}
+@media (min-width: 768px) {
+    .indexSide {
+        width: 220px;
+        display: block;
+        position: fixed;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #fff;
+        box-shadow: 1px 0 10px rgba(0, 0, 0, .05);
+    }
+
+    .bottom-right {
+        margin-left: 245px;
+    }
+}
+@media (max-width: 767px) {
+    .indexSide {
+        display: none;
+    }
+}
+
+.indexSide {
+    background: #1c2b36;
+}
+/*左边菜单栏*/
+#accordion {
+    margin-bottom: 0;
+}
+
+#accordion .panel {
+    border-radius: 0;
+    border: 0;
+}
+
+#accordion .panel-heading {
+    border-radius: 0;
+    height: 40px;
+    padding: 0;
+}
+
+#accordion .panel-heading .panel-title a {
+    font-size: 12px;
+    line-height: 40px;
+    padding-left: 10px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: rgba(255,255,255,0.75);
+    background: #263238;
+}
+
+#accordion .panel-heading .panel-title a:hover {
+    color: rgba(255,255,255,1);
+}
+
+#accordion .panel-heading .panel-title .active {
+    background-color: #26a69a;
+    color: rgba(255,255,255,1);
+}
+
+#accordion .panel-body {
+    color: rgba(255,255,255,0.75);
+    background: #263238;
+    border: 0!important;
+}
+
+.centercon,
+.lefticon {
+    float: left;
+    line-height: 40px;
+}
+
+.centercon {
+    margin-left: 10px;
+}
+
+.righticon {
+    float: right;
+    margin-right: 10px;
+    line-height: 40px;
+}
+
+.panel-submenu li {
+    height: 30px;
+    cursor: pointer;
+}
+
+.panel-submenu li i {
+    margin-left: 10px;
+}
